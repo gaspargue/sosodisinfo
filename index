@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- sin estilo, solo elementos -->
+<!-- ver mas elementos en http://www.w3schools.com/tags/ref_byfunc.asp -->
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title> HTML 1 - v1</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+
+    <style type="text/css">
+    body {
+        background: white;
+    }
+    #container{
+        width: 100%;
+        background: white;
+        padding: 2%;
+
+    }
+
+    .caja{
+        width: 650px;
+        background: blue;
+        padding: 2px;
+    }
+
+        .caja h3{
+        background: blue;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
+        padding-left: 7%;
+        letter-spacing: 1px;
+    }
+
+    img {
+        width: 500px;
+        padding-left: 1%;
+        margin: 0px;
+
+
+        position: center;
+        position:sticky;
+
+    }
+
+    h1{
+        background: white;
+        padding-left: 1%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 35px;
+        color: black;
+    }
+
+    h2{
+        background: blue;
+        padding-left: 7%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: white;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    h3{
+        background: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        color: black;
+        text-transform: uppercase;
+        padding-left: 1%;
+    }
+
+    h4{
+        background: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        color: black;
+        text-transform: uppercase;
+        padding-left: 1%;
+    }
+
+
+    p{
+        background: blue;
+        padding-left: 1%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: white;
+        text-align: left;
+    }
+
+        .cajab{
+        width: 700px;
+        background: white;
+        padding: 2px;
+    }
+
+            .cajab h2{
+        background: white;
+        padding-left: 1%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        color: blue;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+            .cajab p{
+        background: white;
+        padding-left: 1%;
+        padding-right: 10%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        color: blue;
+        text-align: left;
+    }
+
+</style>
+
+
+</head>
+
+
+<body>
+
+    <div id="container">
+        <h1>SOSO Limited y Mónica Bate</h1>
+        <h3>Diseño de Información - Análisis Autores Contemporáneos</h3>
+
+        <div class="caja">
+            <h2>SOSO Limited</h2>
+            <figure><img src='img/01.jpg' onmouseover="this.src='img/02.jpg';" onmouseout="this.src= 'img/01.jpg' ;"/>
+        <p>Para SOSO el espacio tiene muchos significados: físico, digital, aumentado, personal, social, compartido, competitivo.</p>
+        <p> Según su visión toda interacción humana ocurre en algún tipo de espacio, ya sea uno, dos o tres dimensiones.
+Creen que diferenciarse y crear un compromiso duradero requiere nuevos enfoques estratégicos para los muchos roles que el espacio puede desempeñar. Por esto crean espacios sensoriales impulsados por el diseño y la tecnología.</p>
+        <p> Su equipo multidisciplinario le ha permitido crear memorables proyectos a partir de conceptos que se han reflejado en instalaciones con un enfoque hacia la evolución. </p>
+       <p><a href="https://www.sosolimited.com/" target="_blank">SOSO Limited</a></p>
+        </div>
+
+         <div class="caja">
+         <h3>Proyecto Colorspace</h3>
+             <figure><img src='img/03.jpg' onmouseover="this.src='img/03.jpg';" onmouseout="this.src= 'img/03.jpg' ;"/>
+             <p><a href="https://www.sosolimited.com/work/colorspace/" target="_blank">Video Colorspace</a></p>
+              <p>Colorspace, es una escultura interactiva que traduce mensajes de texto en animaciones de luz de color. Boston Properties encargó la creación de la obra de arte para el mezzanine de su icónico rascacielos de Boston en 200 Clarendon Street.</p>
+               <p>Al ingresar, las personas se encuentran con colgantes de luz suspendidos desde una pared. A través de un teléfono móvil se pueden enviar mensajes de texto al número que se encuentra en la pared. Cada palabra enviada refleja una paleta de colores única, 'Playa' ilumina el espacio con azules y amarillos, 'Sandía' le da tonos de rosa y verde.</p>
+               <p>Este espacio está contínuamente cambiando sus colores de manera lúdica a través de una conversación continua con la comunidad. Esto es lo que pueden apreciar todas las personas que entran y salen cada día del edificio.</p>
+        </div>
+
+
+        <div class="caja">
+            <h2>Mónica Bate</h2>
+            <figure><img src='img/04.jpg' onmouseover="this.src='img/05.jpg';" onmouseout="this.src= 'img/04.jpg' ;"/>
+              <p>Artista visual y académica. Nació en Santiago de Chile en 1978. Estudió Licenciatura en Artes Visuales en la Universidad de Chile donde posteriormente comenzó a desempeñar su labor como docente. Se ha especializado en el área de Nuevos Medios y Sonido en el contexto de las artes visuales estudiando en el postítulo de arte y nuevos medios de la Universidad de Chile; en Harvestworks Media Arts Center en Nueva York; y en el programa de Master ITP en la Universidad de Nueva York. Desde el área de la producción, ha formado parte del proyecto Anilla en el Museo de Arte Contemporáneo en Santiago. </p>
+              <p>Su trabajo ha sido expuesto en Chile y en el extranjero destacando proyectos como Acoustic Views, la serie IS3, Strings y The Life of Crystals entre otros.</p>
+        </div>
+
+         <div class="caja">
+            <h3>Proyecto Strings [Iteration 4]</h3>
+            <figure><img src='img/06.jpg' onmouseover="this.src='img/07.jpg';" onmouseout="this.src= 'img/06.jpg' ;"/>
+              <p>A partir de la reflexión acerca de la relación entre computadores y humanos nace el concepto de Physical Computing. Strings fue concebido desde este nicho en donde se piensa la máquina como una extensión del cuerpo sin necesariamente llegar a ser prótesis, sino más bien una interfaz que ayuda al diálogo entre cuerpo y dispositivo a través de una sucesión de eventos y transducciones que se inician en el usuario y terminan en sonido. </p>
+               <p>La instalación de cuerdas y sensores convierte entonces el gesto en un toque de la cuerda en vibración; un sensor ‘siente’ este movimiento que luego es convertido en pequeños pulsos de voltaje que pasan a un microcontrolador, que convierte la señal analógica en una digital para luego ir a un computador que mediante un software dedicado deja estos patrones de dígitos convertidos en sonido a través de una aplicación de síntesis de sonido o a partir de archivos de sonido. Todo esto en milésimas de segundo.</p>
+               <p>Se puede entender Strings de muchas formas: un instrumento sonoro inmersivo, una instalación musical, también como el acto de intervenir un espacio dado a partir de colores, texturas, sonidos y gestualidad. Es sin embargo esta última palabra, la que convocó inicialmente a repensar la relación hombre - computador. Es la singularidad del cuerpo y su gesto el verdadero protagonista de esta experiencia sónica.</p>
+        </div>
+
+
+
+        <div class="cajab">
+            <h2>Análisis y Conclusión</h2>
+            <img src="img/08.jpg">
+            <h3>Características comunes e implicancias locales:</h3>
+              <p>Estos proyectos se pueden comparar debido a que ambos buscan una interacción con el humano, ya sea a través del sonido o de la luz, en el caso de Soso se usa la máquina como plataforma de comunicación entre nuestro cuerpo y la respuesta lumínica de la máquina, se ve al celular como un  puente comunicativo, casi un órgano que nos permite expresarnos para generar cambios en el medio exterior, de la misma manera en el proyecto de Mónica Bate en que nuestro gesto humano y análogo es traspasado hacia el lenguaje de la tecnología, a través de un sonido. </p>
+              <p>En ambos casos nuestro cuerpo se comunica a través de un agente externo para llegar a un output o impacto.Las obras son percibidas como una forma de acercar a las personas a la experiencia del arte de una forma activa y participativa en la que ya no son simples espectadores, si no que crean el contenido y se relacionan con ellos.</p>
+
+               <h3>Realidad contemporánea:</h3>
+              <p>En la época en que vivimos creemos que estos casos ejemplifican en gran manera una nueva forma de entender la tecnología como parte activa de nuestros cuerpos, las máquinas dejan de ser elementos externos para fundirse con lo análogo, con los órganos de nuestro cuerpo, no nos sorprendería que en un futuro cercano se pudieran acoplar partes digitales a nuestros propios cuerpos  para mejorar nuestras capacidades o falencias. Los teléfonos celulares podrían ser incluso prótesis de nuestras manos u ojos.</p>
+              <p>Un ejemplo de este acople digital- corporal es el caso de Neil Harbisson, quien padece una enfermedad que no le permite ver colores, para ayudarlo se le instaló una antena en la cabeza que es capáz de de leer colores y traspasarlos a sonidos dentro de un chip instalado en su cabeza, esto le permite oír los colores y su frecuencia.</p>
+        </div>
+
+
+ <div class="cajab">
+            <h3>Bibliografía:</h3>
+             <p><a href="https://www.sosolimited.com/work/?filter_by=industry&name=institutions" target="_blank">SOSO Limited</a></p>
+              <p><a href="http://etab.cl/monica-bate/?page_id=33" target="_blank">Mónica Bate</a></p>
+               <p><a href="https://www.ted.com/talks/neil_harbisson_i_listen_to_color?language=es#t-315084" target="_blank">Ted Talks</a></p>
+        </div>
+
+
+<div class="cajab">
+             <h4>Fernanda Bórquez - Manuela Gómez - Gaspar Guevara - Holly Jolley - Isidora Yanguas</h4>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
